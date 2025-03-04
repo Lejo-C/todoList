@@ -1,0 +1,81 @@
+body{
+    margin: 50px;
+    background-color: rgb(187, 236, 255);
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+lable{
+    font-size: 30px;
+}
+
+.incomeex{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.button{
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+input[type='submit'], input[type='reset']{
+    background-color: cyan;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    background-color:chartreuse;
+}
+
+input[type='reset']:hover{
+    background-color:chartreuse;
+}
+
+table{
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: white;
+    color: rgb(9, 192, 216);
+}
+
+table.list{
+    text-align: center;
+    width: 80%;
+}
+
+td{
+    border: 1px solid black ;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+button{
+    background-color: cyan;
+    margin: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+.radioButton{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}

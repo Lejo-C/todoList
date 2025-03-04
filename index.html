@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Income Expense Calculator</h2>
+    <form onsubmit="onSubmit()">
+        <div class="incomeex">
+            <div>
+            <h3><lable>Income</lable></h3>
+            <input type="number" name="income" id="income" placeholder="Enter Your Income"/>
+            </div>
+
+            <div>
+                <h3><lable>Expense</lable></h3>
+                <input type="number" name="expense" id="expense" placeholder="Enter Your Expense"/>
+                </div>
+
+        </div>
+        <div class="button">
+        <input type="submit" value="Sumbit"/>
+        <input type="reset" value="Reset"/>
+        </div>
+    </form>
+
+    <div class="radioButton">
+    
+    <label for=rad1> <input type="radio" name="dot" id="rad1"> ALL</label>
+    
+    <label for="rad2"> <input type="radio" name="dot" id="rad2"> INCOME</label>
+    
+    <label for="rad3"> <input type="radio" name="dot" id="rad3"> EXPENSE</label>
+    </div>
+
+    <table class="list" id="storeList">
+        <thead>
+            <tr>
+            <th>Income</th>
+            <th>Expense</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+
+</body>
+<script src="script.js"></script>
+</html>
